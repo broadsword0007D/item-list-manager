@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+// Import the CSS file
+import './App.css';
 
 function App() {
   // State for the current text in the input
@@ -18,26 +20,25 @@ function App() {
   };
 
   return (
-    <div style={{ margin: '2rem' }}>
+    <div className="container">
       <h1>Item List Manager</h1>
-
-      <div style={{ marginBottom: '1rem' }}>
+      <div className="input-section">
         {/* Controlled input field */}
-        <input 
-          type="text" 
-          value={inputValue} 
-          onChange={(e) => setInputValue(e.target.value)} 
-          placeholder="Enter item" 
-          style={{ marginRight: '1rem' }}
+        <input
+          type="text"
+          value={inputValue}
+          onChange={(e) => setInputValue(e.target.value)}
+          placeholder="Enter item"
         />
         {/* Button to add the new item */}
         <button onClick={handleAddItem}>Add Item</button>
       </div>
-
       {/* Display items in an unordered list */}
       <ul>
         {items.map((item, index) => (
-          <li key={index}>{item}</li>
+          <li key={index} className="list-item">
+            {item}
+          </li>
         ))}
       </ul>
     </div>
