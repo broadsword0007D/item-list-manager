@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/broadsword0007D/item-list-manager/static/css/main.f855e6bc.css",
-    "main.js": "/broadsword0007D/item-list-manager/static/js/main.fa28866d.js",
-    "static/js/453.ad6eb26e.chunk.js": "/broadsword0007D/item-list-manager/static/js/453.ad6eb26e.chunk.js",
-    "static/media/logo.svg": "/broadsword0007D/item-list-manager/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/broadsword0007D/item-list-manager/index.html",
-    "main.f855e6bc.css.map": "/broadsword0007D/item-list-manager/static/css/main.f855e6bc.css.map",
-    "main.fa28866d.js.map": "/broadsword0007D/item-list-manager/static/js/main.fa28866d.js.map",
-    "453.ad6eb26e.chunk.js.map": "/broadsword0007D/item-list-manager/static/js/453.ad6eb26e.chunk.js.map"
+    "main.css": "/item-list-manager/static/css/main.f855e6bc.css",
+    "main.js": "/item-list-manager/static/js/main.b38860c6.js",
+    "static/js/453.ad6eb26e.chunk.js": "/item-list-manager/static/js/453.ad6eb26e.chunk.js",
+    "static/media/logo.svg": "/item-list-manager/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/item-list-manager/index.html",
+    "main.f855e6bc.css.map": "/item-list-manager/static/css/main.f855e6bc.css.map",
+    "main.b38860c6.js.map": "/item-list-manager/static/js/main.b38860c6.js.map",
+    "453.ad6eb26e.chunk.js.map": "/item-list-manager/static/js/453.ad6eb26e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.fa28866d.js"
+    "static/js/main.b38860c6.js"
   ]
 }
